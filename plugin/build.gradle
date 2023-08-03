@@ -1,8 +1,8 @@
 apply plugin: 'groovy'
-//apply plugin: 'maven'
+// apply plugin: 'maven'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='top.niunaijun.blackobfuscator'
+group = 'top.niunaijun.blackobfuscator'
 dependencies {
     implementation "com.android.tools.build:gradle:3.3.1"
     implementation "com.android.tools.build:transform-api:1.5.0"
@@ -11,7 +11,7 @@ dependencies {
     implementation gradleApi()
     //groovy sdk
     implementation localGroovy()
-    implementation "com.github.CodingGay.BlackObfuscator:dex-tools:2.1"
+    implementation "com.github.Krosxx.BlackObfuscator:dex-tools:2.1.1"
 }
 
 repositories {
@@ -21,9 +21,9 @@ repositories {
     }
 }
 
-group='top.niunaijun.blackobfuscator'
-version='1.0.0'
-//uploadArchives {
+group = 'top.niunaijun.blackobfuscator'
+version = '1.0.1'
+// uploadArchives {
 //    repositories {
 //        mavenDeployer {
 //            //提交到远程服务器：
@@ -34,4 +34,4 @@ version='1.0.0'
 //            repository(url: uri('../localRepo'))
 //        }
 //    }
-//}
+// }
